@@ -1,0 +1,12 @@
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: blue;
+}
+
+#smile-img {
+  max-width: 80px;
+  max-height: 80px;
+}
