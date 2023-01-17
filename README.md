@@ -5,6 +5,7 @@ Certbot has been added to help set up HTTPS if desired.
 ## Setup
 The project uses the following:
 - Nginx
+- Certbot
 - Docker
 - Docker Compose
 

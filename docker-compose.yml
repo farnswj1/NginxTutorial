@@ -9,7 +9,7 @@ services:
       - "443:443"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./nginx/website/:/usr/share/nginx/html/:ro
+      - ./website/:/usr/share/nginx/html/:ro
       - certbot_data:/var/www/certbot/:ro
       - ssl_certs:/etc/letsencrypt/:ro
   certbot:
